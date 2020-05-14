@@ -1,0 +1,12 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+.errText {
+  color: rgba(248, 29, 34, 1);
+  font-size: 16px;
+  padding: 24px;
+  line-height: 1.5;
+}
