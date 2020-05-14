@@ -18,7 +18,7 @@ const promptList = [
   },
 ];
 module.exports = async function create(projectName, program) {
-  console.log(__dirname, home);
+  console.log(__dirname, "=============", home);
   console.log(symbol.info, `开始配置项目${projectName}`);
   let answers = await inquirer.prompt(promptList);
   console.log(answers); // 返回的结果
